@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 400px;
+    background-image: url("/image/background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 2px 2px #222831;
+}
+
+.header-bold {
+    background-color: #393E46;
+    color: #EEEEEE;
+    padding: 2px 5px;
+    border-radius: 6px;
+    text-shadow: none;
+}
+
+.header-bold:hover {
+    background-color: #EEEEEE;
+    color: #00ADB5;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+.activites-section {
+    padding: 1.5rem ;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+.activites-info {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.images {
+    width: 400px;
+    height: 250px;
+}
+
+.about-me {
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.author-box {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #393E46;
+    padding: 1.2rem;
+    color: #00ADB5;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.profile {
+    width: 150px;
+}
+
+.description {
+    padding-left: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
